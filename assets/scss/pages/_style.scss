@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    color: #fff;
+}
+
+img {
+    // height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+a:hover {
+    color: blue;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1296px;
+}
+
+h1 {
+    font-size: 128px;
+    color: #00FFA3;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/* spacing */
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-64 {
+    font-size: 64px;
+}
+
+.fz-128 {
+    font-size: 128px;
+}
+
+.pd-40 {
+    padding: 40px 0 0;
+}
+
+.pd-72 {
+    padding: 72px 0;
+}
+
+.pd-160 {
+    padding: 160px 0;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-self {
+    align-self: flex-end;
+}
+
+.cover {
+    background-color: #000;
+}
+
+// header
+header li {
+    width: 306px;
+}
+
+header li a {
+    color: #D1D1D1;
+}
+
+// banner
+.banner-text h2 {
+    width: 636px;
+    text-align: left;
+}
+
+.banner-text h1 {
+    text-align: right;
+}
+
+.banner-text a {
+    font-size: 12px;
+    margin-left: auto;
+    width: 185px;
+    display: block;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #FFF;
+    color: #000
+}
+
+.intro {
+    height: 920px;
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+
+.intro-text {
+    width: 526px;
+}
+
+.sparkle img:nth-child(2) {
+    margin: 0 16px;
+}
+
+// about
+.about {
+    color: #15161D;
+    justify-content: space-between;
+}
+
+.aboutCard {
+    width: 636px;
+    margin: auto 0;
+}
+
+.aboutCard ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutCard ul li {
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px #00000014;
+    margin-bottom: 24px;
+}
+
+.aboutCard h3,
+h4 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.aboutText {
+    width: 526px;
+}
+
+.aboutText h2 {
+    text-align: left;
+}
+
+// contact
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.left {
+    width: 657px;
+    align-items: center;
+}
+
+.left h2 {
+    margin-right: 16px;
+}
+
+// project
+.projects {
+    color: #000
+}
+
+.projects h2 {
+    width: 746px;
+    margin-left: auto;
+}
+
+.top-area {
+    margin-bottom: 28px;
+}
+
+.illustrate p {
+    color: #15161D;
+}
+
+.illustrate a {
+    display: block;
+    width: 185px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #000;
+    margin-top: auto;
+}
+
+// footer
+.footer {
+    background: #000;
+}
+
+.footer p {
+    text-align: center;
+    padding: 40px 0;
+}

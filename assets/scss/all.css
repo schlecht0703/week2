@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  color: #fff;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+a:hover {
+  color: blue;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1296px;
+}
+
+h1 {
+  font-size: 128px;
+  color: #00FFA3;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* spacing */
+.pt-40 {
+  padding-top: 40px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-64 {
+  font-size: 64px;
+}
+
+.fz-128 {
+  font-size: 128px;
+}
+
+.pd-72 {
+  padding: 72px 0;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-self {
+  align-self: flex-end;
+}
+
+.cover {
+  background-color: #000;
+}
+
+header li {
+  width: 306px;
+}
+
+header li a {
+  color: #D1D1D1;
+}
+
+.banner-text h2 {
+  width: 636px;
+  text-align: left;
+}
+
+.banner-text h1 {
+  text-align: right;
+}
+
+.banner-text a {
+  width: 185px;
+  display: block;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #FFF;
+  color: #000;
+}
+
+.intro {
+  height: 920px;
+  background: url("./assets/background-img.png") lightgray 50%/cover no-repeat;
+}/*# sourceMappingURL=all.css.map */
